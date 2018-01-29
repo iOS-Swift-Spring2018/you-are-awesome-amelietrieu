@@ -45,7 +45,7 @@ class ViewController: UIViewController {
         }
     }
     
-    func nonRepeatingRandom(lastNumber: Int, maxVa lue:Int) -> Int {
+    func nonRepeatingRandom(lastNumber: Int, maxValue:Int) -> Int {
         var newIndex = -1
         repeat {
             newIndex = Int(arc4random_uniform(UInt32(maxValue)))
