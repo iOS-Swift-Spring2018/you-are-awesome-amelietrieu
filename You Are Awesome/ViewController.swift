@@ -116,7 +116,7 @@ class ViewController: UIViewController {
             soundNumber = newIndex
             
             //Play a sound
-            let soundName = "sound\(soundNumber)"
+            let soundName = "Sound\(soundNumber)"
             playSound(soundName: soundName)
             
 //            messageLabel.text = messages[index]
